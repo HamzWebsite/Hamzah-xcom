@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sekolah</title>
+    <!-- Link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sekolah SMK MUDAN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="smk.jpg" class="d-block w-100" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="fotobersama.jpg" class="d-block w-100" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="4.jpg" class="d-block w-100" alt="Image 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Tentang Sekolah Kami</h2>
+        <p>Sekolah SMK Mudan adalah sekolah yang berfokus pada pendidikan karakter dan kecakapan akademik, dengan fasilitas yang lengkap dan tenaga pengajar yang berkompeten.</p>
+    </section>
+
+    <!-- Card Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Fasilitas Sekolah</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="belajardilab.jpg" class="card-img-top" alt="Perpustakaan">
+                    <div class="card-body">
+                        <h5 class="card-title">Kegiatan Belajar Mengajar</h5>
+                        <p class="card-text">Laboratorium dengan lebih spesifik Belajardilab mungkin mengacu pada penggunaan laboratorium untuk pembelajaran praktis dalam berbagai bidang, seperti sains, komputer, atau teknologi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="olahraga.jpg" class="card-img-top" alt="Lapangan Olahraga">
+                    <div class="card-body">
+                        <h5 class="card-title">Lapangan Olahraga</h5>
+                        <p class="card-text">Lapangan olahraga yang luas dan nyaman untuk kegiatan ekstrakurikuler.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="turnamensekolah.jpg" class="card-img-top" alt="Ruang Kelas">
+                    <div class="card-body">
+                        <h5 class="card-title">Event Sekolah</h5>
+                        <p class="card-text">Turnamen Mobile Legends
+
+                            Menekankan kompetisi antar kelas dalam game Mobile Legends, yang mengasah strategi tim dan keterampilan dalam dunia esports.
+                             </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Table Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Data Siswa</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Nama</th>
+                    <th scope="col">Kelas</th>
+                    <th scope="col">Usia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Hamzah</td>
+                    <td>XI-TJKT</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Hady</td>
+                    <td>XI-TJKT</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Ahmad</td>
+                    <td>XI-TJKT</td>
+                    <td>16</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2024 Sekolah XYZ. All rights reserved.</p>
+    </footer>
+
+    <!-- Link Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
